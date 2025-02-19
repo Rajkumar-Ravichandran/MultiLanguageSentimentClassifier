@@ -39,9 +39,6 @@ Testing Data: /test.csv
 - Train using Hugging Face Trainer API.
 - Run the script containing the training code:
 
-python main.py
-
-(Note: The provided code does not include a separate train.py script. Ensure training is included in main.py.)
 
 **Inference**
 
@@ -50,11 +47,6 @@ To generate predictions on new text inputs:
 - Tokenize input sentences.
 - Use model inference to classify sentiment.
 
-Run inference with:
-
-python main.py --mode predict --input_file test.csv --output_file submission.csv
-
-(Since the original code does not have a separate predict.py, inference is integrated into the main script.)
 
 **Model Checkpoints**
 
